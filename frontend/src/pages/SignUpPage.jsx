@@ -33,7 +33,10 @@ const SignUpPage = () => {
                                 className='w-full px-3 py-2 mt-1 border border-gray-700 rounded-md bg-transparent text-white
                                 focus:outline focus:ring'
                                 placeholder='you@example.com'
-                                id='email'/>
+                                id='email'
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
                         </div>
 
                         <div>
@@ -45,8 +48,8 @@ const SignUpPage = () => {
                                 focus:outline focus:ring'
                                 placeholder='johndoe'
                                 id='username'
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
+                                value={username}
+                                onChange={(e) => setUsername(e.target.value)}
                             />
                         </div>
 
@@ -60,7 +63,8 @@ const SignUpPage = () => {
                                 placeholder='********'
                                 id='password'
                                 value={password}
-                                onChange={(e) => setPassword(e.target.value)}/>
+                                onChange={(e) => setPassword(e.target.value)}
+                            />
                         </div>
 
                         <button className='w-full py-2 bg-red-600 text-white font-semibold rounded-md
