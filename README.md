@@ -16,6 +16,7 @@ Git, GitHub, MongoDB, Express.js, React.js, Node.js, Tailwind, Vite, VSCode, TMD
 Deployment:
 Deployed with [Render](https://render.com/) at https://netfli-130q.onrender.com
 Hosted using free tier, so may take some time to load on first visit
+* Note - may also not run correctly if mongodb is down due to prolonged inactivity - might need to restart since also using free tier 
 
 To run on your own machine:
 Run 'npm install' 
